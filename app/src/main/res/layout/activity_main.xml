@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/app_name"
+        android:textSize="15dp"
+        android:layout_gravity="center|bottom"/>
+
+
+
+    <TextView
+        android:id="@+id/zero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="привет"
+        android:textSize="45dp"
+         />
+    <Button
+        android:id="@+id/clickHere"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Click Me"
+        android:background="@android:color/black"
+        android:layout_gravity="center_vertical|end"/>
+    <Button
+        android:id="@+id/clickTo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="clickTo"
+        android:background="@android:color/black"
+        android:layout_gravity="center_vertical"/>
+
+
+</FrameLayout>
+
