@@ -18,7 +18,7 @@ class FragmentTwo:Fragment() {
     ): View {
         binding = FragmentTwoBinding.inflate(inflater)
         return  binding.root
-//new
+//newFirst
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
